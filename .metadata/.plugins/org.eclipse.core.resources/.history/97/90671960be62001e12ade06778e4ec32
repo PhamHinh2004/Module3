@@ -1,0 +1,19 @@
+package MangementEmployee;
+
+public abstract class Employee {
+	private String firstName;
+	private String lastName;
+	private String social_security_number ;
+	
+	public Employee(String firstName, String lastName, String social_security_number) {
+		this.firstName = firstName;
+		this.lastName = lastName;
+		this.social_security_number = social_security_number;
+	}
+
+	@Override
+	public String toString() {
+		return "firstName=" + firstName + ", lastName=" + lastName + ", social_security_number="+ this.social_security_number ;
+	}
+	
+}

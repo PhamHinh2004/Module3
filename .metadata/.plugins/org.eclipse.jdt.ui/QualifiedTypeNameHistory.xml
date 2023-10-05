@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="bai1.Transformation"/>
+    <fullyQualifiedTypeName name="bai1.XeTrongThanh"/>
+    <fullyQualifiedTypeName name="bai1.XeNgoaiThanh"/>
+    <fullyQualifiedTypeName name="QuanLyDanhSachCacGiaoDich.GiaoDich"/>
+    <fullyQualifiedTypeName name="QuanLyDanhSachCacGiaoDich.GiaoDichDat"/>
+    <fullyQualifiedTypeName name="QuanLyDanhSachCacGiaoDich.GiaoDichNha"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="QuanLyGaioDichVangTienTe.GiaoDichVang"/>
+    <fullyQualifiedTypeName name="QuanLyGaioDichVangTienTe.GiaoDich"/>
+    <fullyQualifiedTypeName name="QuanLyGaioDichVangTienTe.GiaoDichTienTe"/>
+    <fullyQualifiedTypeName name="java.lang.Math"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="QuanLyGaioDichVangTienTe.LoaiTienTe"/>
+    <fullyQualifiedTypeName name="HoaDon.HoaDonNgay"/>
+    <fullyQualifiedTypeName name="HoaDon.DanhSachHoaDon"/>
+    <fullyQualifiedTypeName name="HoaDon.HoaDon"/>
+    <fullyQualifiedTypeName name="HoaDon.HoaDonGio"/>
+    <fullyQualifiedTypeName name="MangementEmployee.Employee"/>
+    <fullyQualifiedTypeName name="MangementEmployee.SalariedEmployee"/>
+    <fullyQualifiedTypeName name="MangementEmployee.HourlyEmployee"/>
+    <fullyQualifiedTypeName name="MangementEmployee.CommissionEmployee"/>
+    <fullyQualifiedTypeName name="MangementEmployee.BasePlusCommissionEmployee"/>
+    <fullyQualifiedTypeName name="HangHoa.HangHoa"/>
+    <fullyQualifiedTypeName name="java.lang.Exception"/>
+    <fullyQualifiedTypeName name="java.time.LocalDate"/>
+</qualifiedTypeNameHistroy>

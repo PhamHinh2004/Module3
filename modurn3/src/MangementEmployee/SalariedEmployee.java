@@ -1,0 +1,23 @@
+package MangementEmployee;
+
+public class SalariedEmployee extends Employee{
+	private double weeklySalary ;
+
+	public SalariedEmployee(String firstName, String lastName, String social_security_number, double weeklySalary) {
+		super(firstName, lastName, social_security_number);
+		this.weeklySalary = weeklySalary;
+	}
+
+	public double getWeeklySalary() {
+		return weeklySalary;
+	}
+
+	public void setWeeklySalary(double weeklySalary) {
+		this.weeklySalary = weeklySalary;
+	}
+
+	@Override
+	public String toString() {
+		return "SalariedEmployee [ "+ super.toString()+", weeklySalary=" + weeklySalary +"0000"+"]";
+	}
+}

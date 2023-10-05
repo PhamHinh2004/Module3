@@ -1,0 +1,29 @@
+package HoaDon;
+
+import java.util.Arrays;
+
+public class DanhSachHoaDon {
+	private HoaDon hd[];
+	private HoaDonGio
+	int count = 0;
+	public DanhSachHoaDon(int ptu) {
+		HoaDon hd[] = new HoaDon[ptu];
+	}
+	public void them(HoaDon hd) {
+		this.hd[count] = hd;
+		count+=1;
+	}
+	@Override
+	public String toString() {
+		return  Arrays.toString(hd) ;
+	}
+	public int thongKeSoLuongHDTheoGio() {
+		for(int i=0;i<count;i++) {
+			if(hd[i] instanceof HoaDonGio) {
+				
+			}
+		}
+	}
+	
+	                                                        
+}
