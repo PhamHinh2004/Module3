@@ -9,8 +9,8 @@ public class HangSanhSu extends HangHoa{
 	public HangSanhSu(String maHang, String tenHang, float donGia, int soLuongTon, String nhaSanXuat,
 			LocalDate ngayNhapKho) throws Exception {
 		super(maHang, tenHang, donGia, soLuongTon);
-		setNhaSanXuat(nhaSanXuat);
-		setNgayNhapKho(ngayNhapKho);
+		this.nhaSanXuat = nhaSanXuat;
+		this.setNgayNhapKho(ngayNhapKho);
 	}
 
 	public String getNhaSanXuat() {

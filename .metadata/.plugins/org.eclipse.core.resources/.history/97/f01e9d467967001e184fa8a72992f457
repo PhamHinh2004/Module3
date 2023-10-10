@@ -10,9 +10,9 @@ public class HangThucPham extends HangHoa{
 	public HangThucPham(String maHang, String tenHang, float donGia, int soLuongTon, LocalDate ngaySanXuat,
 			LocalDate ngayHetHan, String nhaCungCap) throws Exception {
 		super(maHang, tenHang, donGia, soLuongTon);
-		setNgaySanXuat(ngaySanXuat);
-		setNgayHetHan(ngayHetHan);
-		setNhaCungCap(nhaCungCap);
+		this.ngaySanXuat = ngaySanXuat;
+		this.ngayHetHan = ngayHetHan;
+		this.nhaCungCap = nhaCungCap;
 	}
 
 	public LocalDate getNgaySanXuat() {
@@ -20,11 +20,7 @@ public class HangThucPham extends HangHoa{
 	}
 
 	public void setNgaySanXuat(LocalDate ngaySanXuat) {
-		if(ngaySanXuat.isBefore(ngaySanXuat)) {
-			this.ngaySanXuat = LocalDate.now();		
-		}else {
-			this.ngaySanXuat = ngaySanXuat;
-		}
+		this.ngaySanXuat = ngaySanXuat;
 	}
 
 	public LocalDate getNgayHetHan() {
@@ -32,11 +28,7 @@ public class HangThucPham extends HangHoa{
 	}
 
 	public void setNgayHetHan(LocalDate ngayHetHan) {
-		if(ngayHetHan.isBefore(this.ngaySanXuat)) {
-			this.ngayHetHan = this.ngaySanXuat;		
-		}else {
-			this.ngaySanXuat = ngaySanXuat;
-		}
+		this.ngayHetHan = ngayHetHan;
 	}
 
 	public String getNhaCungCap() {
@@ -46,4 +38,5 @@ public class HangThucPham extends HangHoa{
 	public void setNhaCungCap(String nhaCungCap) {
 		this.nhaCungCap = nhaCungCap;
 	}
+	
 }

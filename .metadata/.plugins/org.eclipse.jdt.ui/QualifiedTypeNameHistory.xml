@@ -24,7 +24,7 @@
     <fullyQualifiedTypeName name="MangementEmployee.HourlyEmployee"/>
     <fullyQualifiedTypeName name="MangementEmployee.CommissionEmployee"/>
     <fullyQualifiedTypeName name="MangementEmployee.BasePlusCommissionEmployee"/>
-    <fullyQualifiedTypeName name="HangHoa.HangHoa"/>
     <fullyQualifiedTypeName name="java.lang.Exception"/>
     <fullyQualifiedTypeName name="java.time.LocalDate"/>
+    <fullyQualifiedTypeName name="HangHoa.HangHoa"/>
 </qualifiedTypeNameHistroy>

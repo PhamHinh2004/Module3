@@ -1,6 +1,6 @@
 package HangHoa;
 
-public abstract class HangHoa {
+public class HangHoa {
 	private String maHang ;
 	private String tenHang;
 	private float donGia;
@@ -14,24 +14,14 @@ public abstract class HangHoa {
 	public String getMaHang() {
 		return maHang;
 	}
-	private void setMaHang(String maHang)throws Exception{
-		if(maHang.trim() ==null || maHang.trim()==""){
-			this.maHang = "khong co ma";
-		}
-		else {
-			this.maHang = maHang;
-		}
+	public void setMaHang(String maHang) {
+		this.maHang = maHang;
 	}
 	public String getTenHang() {
 		return tenHang;
 	}
-	public void setTenHang(String tenHang) throws Exception{
-		if(tenHang.trim() ==null || tenHang.trim()==""){
-			this.tenHang = "XXX";
-		}
-		else {
-			this.tenHang = tenHang;
-		}
+	public void setTenHang(String tenHang) {
+		this.tenHang = tenHang;
 	}
 	public float getDonGia() {
 		return donGia;
@@ -53,8 +43,6 @@ public abstract class HangHoa {
 		}else {
 			this.soLuongTon = 0;
 		}
-	}
-	public void danhGiaMucBan() {
 	}
 	@Override
 	public String toString() {
